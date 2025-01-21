@@ -18,23 +18,38 @@
   /* Banner Design */
   .top-banner {
     padding: 9.375rem 0 9.375rem;
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
-
 @media (max-width: 767px) {
-    /* custom css */
-    h1 {
-        font-size: 2.3rem;
-    }
-    h2 {
-        font-size: 2.8rem;
-        line-height: 2.0625rem;
-    }
+  /* custom css */
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
 
-    /* top banner */
-    .top-banner {
-        padding: 10.827rem 0 9.375rem;
-    }
+  /* top banner */
+  .top-banner {
+    padding: 10.827rem 0 9.375rem;
+    padding-bottom: 0;
+  }
+
+  /* story section */
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .story-section-2 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  /* footer secton */
+  .footer a i {
+    padding: 0 0.7rem;
+  }
 }
